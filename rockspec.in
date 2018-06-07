@@ -1,17 +1,9 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "cmark"
-version = "0.24.1-1"
--- LuaDist source
+version = "_VERSION-_REVISION"
 source = {
-  tag = "0.24.1-1",
-  url = "git://github.com/LuaDist-testing/cmark.git"
+    url = "git://github.com/jgm/cmark-lua",
+    tag = "_VERSION"
 }
--- Original source
--- source = {
---     url = "git://github.com/jgm/cmark-lua",
---     tag = "0.24.1"
--- }
 description = {
     summary = [[Lua wrapper for libcmark, CommonMark Markdown parsing
       and rendering library]],
